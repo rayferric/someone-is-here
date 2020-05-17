@@ -54,16 +54,13 @@ client.login(process.env.TOKEN).then(
     }
 );
 
-// Glitch specific code to keep the project online 24/7
+// Glitch specific code, this server responds to Uptime Robot pings 24/7
 
 http.createServer((reqest, result) => {
     result.writeHead(200, {'Content-Type': 'text/plain'});
     result.write('Bot status has been refreshed.');
     result.end();
-    console.log('Bot status has been refreshed.');
 }).listen(process.env.PORT);
-
-setInterval(() => http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me`), 280000);
 
 // End of Glitch specific code
 
