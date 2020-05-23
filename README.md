@@ -25,7 +25,7 @@
 
 ### Prerequisites
 
-- ⚙️ Visual C++ **[Build Tools](https://visualstudio.microsoft.com/pl/visual-cpp-build-tools)**
+- ⚙️ Visual C++ **[Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools)**
 - 🐍 Latest Version of **[Python](https://www.python.org)**
 - 💻 **[Node.js](https://nodejs.org)** Runtime
 - 🔗 **[Git](https://git-scm.com)** Version Control System
