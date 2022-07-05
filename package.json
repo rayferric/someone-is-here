@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/rayferric/someone-is-here#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
+    "@discordjs/opus": "^0.8.0",
     "cross-env": "^7.0.2",
     "discord.js": "^12.2.0"
   },
